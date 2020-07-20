@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador Regressivo</title>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="app" class="app">
+		<div class="content-title">
+			<h1>Contador Regressivo</h1>
+		</div>
+		<div class="content-contador">
+			<p>
+				<span id="contador-dia">00</span> : 
+				<span id="contador-hor">00</span> : 
+				<span id="contador-min">00</span> : 
+				<span id="contador-seg">00</span>
+			</p>
+		</div>
+		<div class="content-form">
+			<form>
+				<input type="datetime-local" id="input_dt" placeholder="Data de destino" />
+				<button type="submit" class="btn-app">Iniciar Contador</button>
+			</form>
+		</div>
+	</div>
+
+	<script src="site.js"></script>
+</body>
+</html>
